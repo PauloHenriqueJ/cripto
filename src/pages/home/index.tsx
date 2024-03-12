@@ -2,6 +2,7 @@ import { useState, useEffect, FormEvent } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import styles from "./home.module.css";
 import { BiSearch } from "react-icons/bi";
+import Footer from "../../components/footer";
 
 //https://coinlib.io/api/v1/coinlist?key=e9c7d171dfa4a2d9&pref=BTC&page=1&order=volume_desc
 //Sua chave de API: e9c7d171dfa4a2d9
@@ -67,6 +68,7 @@ export default function Home() {
   }
 
   return (
+    <>
     <main className={styles.container}>
       <form className={styles.form} onSubmit={handleSearch}>
         <input
@@ -118,5 +120,7 @@ export default function Home() {
         </tbody>
       </table>
     </main>
+    <footer><Footer/></footer>
+    </>
   );
 }
