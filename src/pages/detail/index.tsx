@@ -43,10 +43,10 @@ export default function Detail(){
 
               const resultData = {
                 ...data,
-                formatedPrice: price.format(data.price),
-                formatedMarket: price.format(data.market_cap),
-                formatedLowPrice: price.format(data.low_24h),
-                formatedHighPrice: price.format(data.high_24h),
+                formatedPrice: price.format(Number(data.price)),
+                formatedMarket: price.format(Number(data.market_cap)),
+                formatedLowPrice: price.format(Number(data.low_24h)),
+                formatedHighPrice: price.format(Number(data.high_24h)),
                 numberDelta:parseFloat(data.delta_24h.replace(",", ".")),
 
               }
