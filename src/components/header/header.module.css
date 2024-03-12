@@ -1,0 +1,15 @@
+.container{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    max-width:1080px;
+}
+
+.logo{
+    height: 150px;
+    width: 180px;
+    margin-top:40px;
+    position: relative;
+}
