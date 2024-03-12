@@ -33,7 +33,7 @@ export default function Home() {
       )
         .then((response) => response.json())
         .then((data: DataProps) => {
-          const coninsData = data.coins.slice(0, 15);
+          const coninsData = data.coins.slice(0, 20);
 
           const price = Intl.NumberFormat("pt-BR", {
             style: "currency",
