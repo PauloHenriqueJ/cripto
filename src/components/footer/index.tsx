@@ -1,6 +1,6 @@
 import styles from './footer.module.css'
 import { Link } from "react-router-dom"
-import logo from "../../assets/Minha_logo.svg"
+import logo from "../../assets/Minha_logo.png"
 import { FaGithub } from "react-icons/fa6";
 import { CiLinkedin } from "react-icons/ci";
 import { FaRegUser } from "react-icons/fa";

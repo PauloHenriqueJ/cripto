@@ -1,5 +1,5 @@
 import styles from './header.module.css'
-import logo from '../../assets/Minha_logo.svg'
+import logo from '../../assets/Minha_logo.png'
 import { Link } from 'react-router-dom'
 
 export default function Header(){
